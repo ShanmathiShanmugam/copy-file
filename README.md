@@ -21,17 +21,17 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 ```python
-developde by: S.Shanmathi
-registered number: 22003171
-with open("git.txt","r") as f1:
-    with open("MyFile.txt","a") as f2:
-        for line in f1:
-            f2.write(line)
+#developde by: S.Shanmathi
+#register number: 22003171
+with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
+    for line in firstfile:
+             secondfile.write(line)
 ```
 
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/121243595/214904641-0ca88cff-f2b1-41d8-8428-26b37e5e73ea.png)
-
+![5c-1](https://user-images.githubusercontent.com/121243595/215338458-a92a3762-5149-437a-ab3a-9f384cbd6165.jpg)
+![5c2](https://user-images.githubusercontent.com/121243595/215338466-675af177-fecf-4b12-aa6e-c234be80bd78.jpg)
+![5c3](https://user-images.githubusercontent.com/121243595/215338470-ef77a197-ca82-4608-bc95-669c5ea40d1e.jpg)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
